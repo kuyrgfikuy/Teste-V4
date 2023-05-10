@@ -1,0 +1,131 @@
+* {   
+    font-family: 'Roboto', sans-serif;
+    
+}
+  
+.container-img{
+    text-align: center; 
+    height: 30px;
+    left: 658px;
+    top: 83px;
+}
+
+body{
+    
+    position: relative;
+    background: radial-gradient(38.47% 51.3% at -2.5% 95.12%, #C62C2C 0%, rgba(213, 19, 19, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(29.35% 38.59% at 98.47% 0%, #C62C2C 0%, rgba(213, 19, 19, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #650303;
+    height: 1250px;
+}
+
+.app{
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 800px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px;  
+    
+}
+
+.app h1{
+    position: relative;
+    width: 1440px;
+    height: 902px;
+}
+
+
+.quiz{
+    padding: 110px, 0;
+    
+
+}
+
+.quiz h2{  
+
+    margin: 20px 0;
+    font-size: 40px;
+    color: #F4D5CA;
+    font-weight: 700;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #F4D5CA;
+
+    
+}
+
+.btn{
+    padding: 20px;
+    margin: 0,5px 0;
+    text-align: left;
+
+    cursor: pointer;
+    transition: all 0.9s;
+
+    box-sizing: border-box;
+    width: 761.27px;
+    height: 102.24px;
+    left: 358.2px;
+    top: 525.4px;
+    background: #F4D5CA;
+    border: 3px solid #FF5200;
+    position: left;
+    border-radius: 10px;
+
+    position: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: #650303
+
+    
+}
+
+.btn:hover:not([disable]){
+    background: #650303;
+    color: #F4D5CA;
+
+    background: radial-gradient(38.47% 51.3% at -2.5% 95.12%, #C62C2C 0%, rgba(213, 19, 19, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(29.35% 38.59% at 98.47% 0%, #C62C2C 0%, rgba(213, 19, 19, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #650303;
+    
+
+}
+.btn:disable{
+    cursor: no-drop;
+}
+
+#next-btn{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+
+    width: 358px;
+    height: 80px;
+    left: 541px;
+    top: 7007px;
+    background: #FF5200;
+    border-radius: 20px;  
+
+
+    cursor: pointer; 
+    display: none; 
+    border: 1px solid #FF5200;
+    padding: 10px;
+    margin: 50px auto 0;
+    
+
+}
+
+.correct{
+    
+    background: #F4D5CA;
+    
+}
+.incorrect{
+    background: radial-gradient(38.47% 51.3% at -2.5% 95.12%, #C62C2C 0%, rgba(213, 19, 19, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(29.35% 38.59% at 98.47% 0%, #C62C2C 0%, rgba(213, 19, 19, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #650303;
+    color: #F4D5CA
+}

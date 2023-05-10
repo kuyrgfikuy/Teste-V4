@@ -1,0 +1,75 @@
+/* "hover" para fazer o efeito de passar no botão
+   "padding" para definir o espaço da borda e do conteúdo
+ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #F4D5CA;
+    background-image: linear-gradient(315deg, #f4caca 0%, #f5f7 100%);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.quiz-container{
+    background-color: #F4D5CA;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px #FF5200;
+    width: 600px;
+    overflow: hidden;
+}
+
+.quiz-hearder{
+    padding: 4rem;
+}
+
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0%;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    background-color: #FF5200;
+    color: #F4D5CA;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 1.3rem
+}
+button:hover{
+    background-color: #ff5100de;
+}
+button:focus{
+    outline: none;
+    background-color: #FF5200;
+}

@@ -1,0 +1,90 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: radial-gradient(38.47% 51.3% at -2.5% 95.12%, #C62C2C 0%, rgba(213, 19, 19, 0) 100%)
+    , radial-gradient(29.35% 38.59% at 98.47% 0%, #C62C2C 0%, rgba(213, 19, 19, 0) 100%) 
+     , #650303;;
+}
+
+.app{
+    background: background: linear-gradient(0deg, #650303, #650303),radial-gradient(38.47% 51.3% at -2.5% 95.12%, #C62C2C 0%, rgba(213, 19, 19, 0) 100%), radial-gradient(29.35% 38.59% at 98.47% 0%, #C62C2C 0%, rgba(213, 19, 19, 0) 100%);
+    box-sizing: border-box;
+    width: 70%;
+    max-width: 800px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.app h1{
+    font-size: 40px;
+    color: #F4D5CA;
+    font-weight: 600;
+    border-bottom: 1px solid #F4D5CA;
+    padding-bottom: 30px; 
+}
+
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    margin: 20px 0;
+    font-size: 40px;
+    color: #F4D5CA;
+    font-weight: 700;
+}
+
+.btn{
+font-family: 'Roboto', sans-serif;
+size: 30px;
+color: #650303;
+background: #F4D5CA;
+color: #650303;
+font-weight: 527;
+width: 100%;
+border: 1px solid #FF5200;
+padding: 10px;
+    margin: 0,5px 0;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s
+}
+
+.btn:hover:not([disable]){
+    background: #650303;
+    color: #F4D5CA;
+
+}
+.btn:disable{
+    cursor: no-drop;
+}
+
+#next-btn{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 30px;
+line-height: 35px;
+    
+
+background: #FF5200;
+color: #FFFFFF;
+font-weight: 200;
+width: 358px;
+    border: 1px solid #FF5200;
+    padding: 10px;
+    margin: 50px auto 0;
+border-radius: 15px;
+cursor: pointer; 
+display: none;  
+}
+
+.correct{
+    background: #F4D5CA
+}
+.incorrect{
+    background: #FF5200
+}
